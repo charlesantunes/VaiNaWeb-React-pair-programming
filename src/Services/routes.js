@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from '../Components/Pages/Home/index'
 import Error from '../Components/Pages/Error/index'
 
-
 export default function Rotas() {
     return(
         <Router>
