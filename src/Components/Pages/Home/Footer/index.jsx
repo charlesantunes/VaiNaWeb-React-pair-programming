@@ -1,18 +1,23 @@
 import React from "react";
-import {Link} from 'react-router-dom'
 
-import { Container } from './style';
+import * as S from './style';
 
 export default function FooterFunc() {
   return(
     <>
-      <Container>
-        <ul>
-          <li><Link to="/" >ABOUT</Link></li>
-          <li><Link to="/erro" >RECIPES</Link></li>
-          <li>SUBSCRIBE</li>
-        </ul>
-      </Container>
+      <S.Container>
+          <S.MenuLeft>
+            <h2>RC</h2>
+          </S.MenuLeft>
+          
+          <S.MenuRight>
+            <ul>
+              <li>ABOUT</li>
+              <li>RECIPES</li>
+              <li>SUBSCRIBE</li>
+            </ul>
+          </S.MenuRight>
+      </S.Container>
     </>
   )
 }

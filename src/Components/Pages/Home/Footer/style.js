@@ -57,3 +57,7 @@ export const Container = styled.footer`
     }
 
 `
+export const MenuRight = styled.div`
+`
+export const MenuLeft = styled.div`
+`
