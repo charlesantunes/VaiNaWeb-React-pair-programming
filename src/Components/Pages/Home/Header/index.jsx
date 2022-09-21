@@ -1,17 +1,25 @@
 import React from "react";
 
-import { Container } from "./style";
+import * as S from "./style";
 
 export default function HeaderFunc() {
   return(
     <>
-      <Container>
-            <ul>
+      <S.Container>
+        <S.Box>
+            <S.MenuLeft>
+              <h2>RC</h2>
+            </S.MenuLeft>
+            
+            <S.MenuRight>
+              <ul>
                 <li>ABOUT</li>
                 <li>RECIPES</li>
                 <li>SUBSCRIBE</li>
-            </ul>
-        </Container>
+              </ul>
+            </S.MenuRight>
+        </S.Box>
+      </S.Container>
     </>
   )
 }

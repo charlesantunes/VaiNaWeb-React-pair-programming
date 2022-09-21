@@ -7,7 +7,12 @@ export default function FooterFunc() {
     <>
       <S.Container>
           <S.MenuLeft>
-            <h2>RC</h2>
+            <ul>
+              <li><img src="" alt="instagram" /></li>
+              <li><img src="" alt="twiter" /></li>
+              <li><img src="" alt="Facebook" /></li>
+              <li><img src="" alt="Pinterest" /></li>
+            </ul>
           </S.MenuLeft>
           
           <S.MenuRight>
