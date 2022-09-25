@@ -7,6 +7,7 @@ export default function MainFunc() {
     <>
         <S.Top>
           <h1>MainTop</h1>
+          <p>testando header</p>
         </S.Top>
 
         <S.Mid>
