@@ -29,6 +29,7 @@ export const ContainerTitle = styled.div`
     h1{
         color: #373737;
         font-family: 'Open Sans', sans-serif;
+        font-size: 2rem;
         height: 12rem;
         padding-top: 9rem;
         text-align: center;

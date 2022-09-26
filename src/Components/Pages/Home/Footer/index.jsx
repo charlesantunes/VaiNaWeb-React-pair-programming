@@ -7,28 +7,29 @@ import Pinterest from '../../../../Assets/PinterestEllipse.png'
 import * as S from './style';
 
 export default function FooterFunc() {
-  return(
+  return (
     <>
       <S.Container>
-          <S.MenuLeft>
-            <ul>
-              <li><img src={Instagram} alt="instagram" /></li>
-              <li><img src={Twitter} alt="twiter" /></li>
-              <li><img src={Facebook} alt="Facebook" /></li>
-              <li><img src={Pinterest} alt="Pinterest" /></li>
-            </ul>
-          </S.MenuLeft>
-          <S.MenuRight>
-            <ul>
-              <li>ABOUT</li>
-              <li>RECIPES</li>
-              <li>SUBSCRIBE</li>
-            </ul>
-          </S.MenuRight>
-          <S.Rodape>
-            <p>Layout produzido por Vai na Web para fins exclusivamente educacionais. Referência: https://br.pinterest.com/pin/AVuDlMAl4GsQiM6nijH9YbG9bsNKpompSEOEHzig6GJ58AnUtMkSy7k/</p>
-          </S.Rodape>
+        <S.MenuLeft>
+          <div>
+            <img src={Instagram} alt="instagram" />
+            <img src={Twitter} alt="twiter" />
+            <img src={Facebook} alt="Facebook" />
+            <img src={Pinterest} alt="Pinterest" />
+          </div>
+        </S.MenuLeft>
+        <S.MenuRight>
+          <ul>
+            <li>ABOUT</li>
+            <li>RECIPES</li>
+            <li>SUBSCRIBE</li>
+          </ul>
+        </S.MenuRight>
       </S.Container>
+
+      <S.Rodape>
+        <p>&copy; Projeto realizado em dupla por Charles Antunes e Adriana Gutierrez para o curso do Vai Na Web em 09/2022</p>
+      </S.Rodape>
     </>
   )
 }
