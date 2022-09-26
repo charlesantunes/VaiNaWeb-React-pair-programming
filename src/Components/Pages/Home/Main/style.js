@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ContainerGeral = styled.section`
-    border: solid 5px pink;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -10,7 +9,6 @@ export const ContainerGeral = styled.section`
 
 export const Top = styled.section`
     background-color: #F2F4F1;
-    border: solid 5px blue;
     height: auto;
     width: 100%;
 
@@ -58,11 +56,17 @@ export const Bolo = styled.div`
     align-items: center;
     background-color: #FFFFFF;
     box-shadow: 5px 5px 5px 5px #00000029;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     height: 30rem;
     margin-bottom: 3rem;
+    transition: 1s all;
     width: 20rem;
+
+    &:hover{
+        transform: scale(1.1);
+    }
 
     img{
         object-fit: contain;
@@ -81,17 +85,22 @@ export const Bolo = styled.div`
         margin-top: 2rem;
         width: 100%
     }
-
 `
 export const Pizza = styled.div`
     align-items: center;
     background-color: #FFFFFF;
     box-shadow: 5px 5px 5px 5px #00000029;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     height: 30rem;
     margin-bottom: 3rem;
+    transition: 1s all;
     width: 20rem;
+
+    &:hover{
+        transform: scale(1.1);
+    }
 
     img{
         object-fit: contain;
@@ -115,11 +124,17 @@ export const Smoothie = styled.div`
     align-items: center;
     background-color: #FFFFFF;
     box-shadow: 5px 5px 5px 5px #00000029;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     height: 30rem;
     margin-bottom: 3rem;
+    transition: 1s all;
     width: 20rem;
+
+    &:hover{
+        transform: scale(1.1);
+    }
 
     img{
         object-fit: contain;
@@ -141,7 +156,6 @@ export const Smoothie = styled.div`
 `
 
 export const Mid = styled.section`
-    border: solid 5px red;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -203,7 +217,6 @@ export const ContainerAbout = styled.div`
 `
 
 export const Bot = styled.div`
-    border: solid 5px green;
     background-color: #DFE4DE;
     display: flex;
     flex-direction: column;   
@@ -213,7 +226,6 @@ export const Bot = styled.div`
     
 
     h1{
-        border: solid red;
         height: 7rem;
         padding-top: 4rem;
         text-align: center;
@@ -222,7 +234,6 @@ export const Bot = styled.div`
     }
 
     h2{
-        border: solid yellowgreen;
         font-weight: lighter;
         padding-bottom: 2rem;
         text-align: center;
@@ -240,18 +251,23 @@ export const Bot = styled.div`
     }
 
     div{
-        background-color: none;
         border: 3px solid black;
         cursor: pointer;
         padding: .5rem 1rem;
         text-align: center;
         text-transform: uppercase;
+        transition: 1s all;
         width: 8rem;
+
+        &:hover{
+            background-color: whitesmoke;
+            transform: scale(1.1);
+        }
     }
 
     @media only screen and (min-width: 360px) and (max-width: 800px){
         height: 50vh;
-        
+
         h1{
             font-size: 2rem;
         }
@@ -270,6 +286,22 @@ export const Bot = styled.div`
     }
 
     @media only screen and (min-width: 412px) and (max-width: 780px){
+        height: 50vh;
+        
+        h1{
+            font-size: 2rem;
+        }
 
+        h2{
+            font-size: 2rem;
+        }
+
+        input{
+            width: 90%;
+        }
+
+        div{
+            width: 90%;
+        }
     }
 `
