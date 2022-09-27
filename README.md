@@ -4,6 +4,6 @@
 
 Líder 1 - Cria o repositório com o projeto;\
 Líder 2 - Fork e clone no projeto, após alterações, enviar um Pull Request para o Líder 1;\
-Líder 1 - Aceita o fork / git pull pra pegar as alterações. Executar novas alterações e repetir todo o processo de Pul Request.\
+Líder 1 - Aceita o fork / git pull pra pegar as alterações. Executar novas alterações e repetir todo o processo de Pul Request.
 
 👉🏼 O trabalho foi realizado a partir do design do Figma.
